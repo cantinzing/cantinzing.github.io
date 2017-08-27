@@ -12,14 +12,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="html,PHP," />
+    <meta name="keywords" content="PHP,html," />
   
 
   <meta name="description" content="1.不管是什么后缀名的文件，php都可以include引入,其中的&amp;lt;?php ? &amp;gt;部分代码会被解析，其他的部分保持原来的样子输出。 2.单独访问html文件时，html文件里面的php代码不会被解析，必须在php文件通过include引入html文件然后访问php文件才能被解析。 例如： 创建一个a.html文件，里面有一段php代码。1234567891011&amp;lt;!DOCTY">
-<meta name="keywords" content="html,PHP">
+<meta name="keywords" content="PHP,html">
 <meta property="og:type" content="article">
 <meta property="og:title" content="php代码在html文件解析问题">
-<meta property="og:url" content="http://tinzing.top/2017/08/05/php-include/index.html">
+<meta property="og:url" content="/child/2017/08/05/php-include/index.html">
 <meta property="og:site_name" content="为知">
 <meta property="og:description" content="1.不管是什么后缀名的文件，php都可以include引入,其中的&amp;lt;?php ? &amp;gt;部分代码会被解析，其他的部分保持原来的样子输出。 2.单独访问html文件时，html文件里面的php代码不会被解析，必须在php文件通过include引入html文件然后访问php文件才能被解析。 例如： 创建一个a.html文件，里面有一段php代码。1234567891011&amp;lt;!DOCTY">
 <meta property="og:locale" content="zh-CN">
@@ -35,7 +35,7 @@
   
 
   
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="./favicon.ico">
   
 
   <link href="/css/styles.css?v=c114cbe6" rel="stylesheet">
@@ -240,7 +240,7 @@
       <p>1.不管是什么后缀名的文件，php都可以include引入,其中的&lt;?php ? &gt;部分代码会被解析，其他的部分保持原来的样子输出。</p>
 <p>2.单独访问html文件时，html文件里面的php代码不会被解析，必须在php文件通过include引入html文件然后访问php文件才能被解析。</p>
 <p>例如：</p>
-<p>创建一个a.html文件，里面有一段php代码。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html;charset=UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>我不是php代码<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"red"</span>&gt;</span>&lt;?php echo '我是php代码，我必须在php文件里面才可以被解析'; ?&gt;<span class="tag">&lt;/<span class="name">font</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>创建一个a.html文件，里面有一段php代码。<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"Content-Type"</span> <span class="attr">content</span>=<span class="string">"text/html;charset=UTF-8"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span>&gt;</span>我不是php代码<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">"red"</span>&gt;</span><span class="php"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="string">'我是php代码，我必须在php文件里面才可以被解析'</span>; <span class="meta">?&gt;</span></span><span class="tag">&lt;/<span class="name">font</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure></p>
 <p>当单独访问a.html文件时，<font color="blue">&lt;?php echo ‘我是php代码，我必须在php文件里面才可以被解析’; ? &gt; </font> 这一段php不能被解析，它只能解析html标签。</p>
 <p><img src="http://ou7akooq8.bkt.clouddn.com/WX20170805.png" alt="Alt text"></p>
 <p>上面只解析了 &lt; p &gt;我不是php代码&lt; /p &gt; html标签。</p>
@@ -285,7 +285,7 @@
     <a class="show pull-left" href="/2017/08/04/php-name-space/">
         <i class="icon icon-angle-left"></i>
     </a>
-    <a class="hide pull-right" href="/">
+    <a class="show pull-right" href="/2017/08/27/ceshi/">
         <i class="icon icon-angle-right"></i>
     </a>
   </div>
@@ -410,7 +410,7 @@
   <script>
     var disqus_shortname = 'forsigner';
     
-    var disqus_url = 'http://tinzing.top/2017/08/05/php-include/';
+    var disqus_url = '/child/2017/08/05/php-include/';
     
     (function(){
       var dsq = document.createElement('script');
