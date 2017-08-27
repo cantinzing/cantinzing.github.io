@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>为知</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://cantinzing.github.io/"/>
+  <updated>2017-08-27T09:59:22.000Z</updated>
+  <id>https://cantinzing.github.io/</id>
+  
+  <author>
+    <name>cantinzing</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ceshi</title>
+    <link href="https://cantinzing.github.io/2017/08/27/ceshi/"/>
+    <id>https://cantinzing.github.io/2017/08/27/ceshi/</id>
+    <published>2017-08-27T09:58:10.000Z</published>
+    <updated>2017-08-27T09:59:22.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h2&gt;&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div cla
+    
+    </summary>
+    
+    
+      <category term="PHP" scheme="https://cantinzing.github.io/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>php代码在html文件解析问题</title>
+    <link href="https://cantinzing.github.io/2017/08/05/php-include/"/>
+    <id>https://cantinzing.github.io/2017/08/05/php-include/</id>
+    <published>2017-08-05T05:36:00.000Z</published>
+    <updated>2017-08-27T10:22:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1.不管是什么后缀名的文件，php都可以include引入,其中的&amp;lt;?php ? &amp;gt;部分代码会被解析，其他的部分保持原来的样子输出。&lt;/p&gt;
+&lt;p&gt;2.单独访问html文件时，html文件里面的php代码不会被解析，必须在php文件通过include引入htm
+    
+    </summary>
+    
+      <category term="PHP" scheme="https://cantinzing.github.io/categories/PHP/"/>
+    
+    
+      <category term="PHP" scheme="https://cantinzing.github.io/tags/PHP/"/>
+    
+      <category term="HTML" scheme="https://cantinzing.github.io/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PHP命名空间 namespace 及导入 use 的用法</title>
+    <link href="https://cantinzing.github.io/2017/08/04/php-name-space/"/>
+    <id>https://cantinzing.github.io/2017/08/04/php-name-space/</id>
+    <published>2017-08-04T08:12:04.000Z</published>
+    <updated>2017-08-05T09:20:58.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在PHP中，出现同名函数或是同名类是不被允许的。为防止编程人员在项目中定义的类名或函数名出现重复冲突，在PHP5.3中引入了命名空间这一概念。&lt;/p&gt;
+&lt;h2 id=&quot;1-命名空间&quot;&gt;&lt;a href=&quot;#1-命名空间&quot; class=&quot;headerlink&quot; title=&quot;1
+    
+    </summary>
+    
+      <category term="PHP" scheme="https://cantinzing.github.io/categories/PHP/"/>
+    
+    
+      <category term="PHP" scheme="https://cantinzing.github.io/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://cantinzing.github.io/2017/08/04/hello-world/"/>
+    <id>https://cantinzing.github.io/2017/08/04/hello-world/</id>
+    <published>2017-08-04T08:04:27.000Z</published>
+    <updated>2017-08-04T08:04:27.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
