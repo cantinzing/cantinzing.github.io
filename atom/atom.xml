@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>为知</title>
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/atom/atom.xml" rel="self"/>
   
   <link href="https://cantinzing.github.io/"/>
   <updated>2017-08-27T09:59:22.000Z</updated>
